@@ -1,1 +1,15 @@
 // Mixins in here
+.button-color-shape(@bgcolor, @color, @height, @width, @border-radius, @font-size){
+    background-color: @button-bg;
+    color: @color;
+    height: @height;
+    width: @width;
+    border-radius: @border-radius;
+    font-size: @font-size;
+}
+
+.centered(){
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
